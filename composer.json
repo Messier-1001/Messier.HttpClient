@@ -1,0 +1,24 @@
+{
+   "name": "messier1001/messier.httpclient",
+   "type": "library",
+   "description": "A simple fluent HTTP client.",
+   "support": {
+      "issues": "https://github.com/Messier-1001/Messier.HttpClient/issues",
+      "source": "https://github.com/Messier-1001/Messier.HttpClient"
+   },
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Messier 1001",
+         "email": "messier.1001+code@gmail.com"
+      }
+   ],
+   "require": {
+      "php": ">=7.1"
+   },
+   "autoload": {
+      "psr-4": {
+         "Messier\\HttpClient\\": "src/"
+      }
+   }
+}
